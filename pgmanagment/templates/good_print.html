@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>{{print}}</title>
+    </head>
+<body>
+    <h1>{{print}}</h1>
+    <div>
+        <p> the numer of charcters in {{print|length}}</p>
+    </div>
+
+<div>
+    {%for i in print%}
+    <div>
+        <p>{{forloop.counter}} {{i}} </p> 
+    </div>
+    {%  endfor %}
+</div>
+</body>
+</html>

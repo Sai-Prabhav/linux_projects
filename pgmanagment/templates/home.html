@@ -1,0 +1,10 @@
+{% extends "template.html" %} {% block base %}
+<h1>This is the home page</h1>
+{% if val1 and val2 %}
+
+
+
+<p> Welcome {{val1|first}} {{val2|first}}</p>
+
+{% endif %} 
+{% endblock base %}

@@ -1,0 +1,18 @@
+{% extends "template.html" %}
+
+{% block base %}
+<form method="post" action="/">
+{% csrf_token %}
+<label for="val1">first name</label>
+<input type="text" name="val1">
+<label for="val2"> last name</label>
+<input type="text" name="val2">
+<button name="sup",type="submit"> submit </button>
+</form>
+
+<div>
+    <p>
+        {{val1}}  {{val2}}
+    </p>
+</div>
+{% endblock base %}

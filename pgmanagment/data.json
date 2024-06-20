@@ -1,0 +1,59 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Leanne Graham",
+            "email": "2fKZz@example.com",
+            "phoneNo.": 919984593503,
+            "emergency_contact": [
+                {
+                    "name": "con1",
+                    "phoneNo.": 919984593503
+                },
+                {
+                    "name": "con2",
+                    "phoneNo.": 9139393940
+                }
+            ],
+            "aadhar_no": 204994303940,
+            "gender": "male",
+            "age": 25,
+            "address": "kochi",
+            "occupation": "engineer",
+            "company": "google",
+            "room_history": []
+        }
+    ],
+    "pgs": [
+        {
+            "id": 1,
+            "name": "PandP",
+            "email": "dkjfjlkdf@example.com",
+            "phoneNo.": 919989993503,
+            "website": "pandp.com",
+            "address": "#12 lalitha indra nagar,,uttrahalli,kochi",
+            "rooms": [
+                {
+                    "id": 1,
+                    "floor": 1,
+                    "room_no": 4,
+                    "price": 1000,
+                    "ac": true,
+                    "capacity": 2,
+                    "type": 1,
+                    "img": "https://images.unsplash.com/"
+                },
+                {
+                    "id": 2,
+                    "floor": 1,
+                    "room_no": 5,
+                    "price": 1000,
+                    "ac": true,
+                    "capacity": 2,
+                    "type": 1,
+                    "img":"https://images.unsplash.com"
+                }
+            ]
+        }
+    ]
+}
